@@ -9,7 +9,10 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin-bottom: 25px;">
-  <img src="/images/humanoids_and_me.png" alt="Christian Corona with Humanoid Robots" style="max-width: 480px; width: 100%; height: auto; margin: 0 auto; border-radius: 8px; display: block; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  <picture>
+    <source srcset="/images/humanoids_and_me.webp" type="image/webp">
+    <img src="/images/humanoids_and_me.png" alt="Christian Corona with Humanoid Robots" style="max-width: 480px; width: 100%; height: auto; margin: 0 auto; border-radius: 8px; display: block; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" fetchpriority="high" decoding="async">
+  </picture>
 </div>
 
 # Intro
