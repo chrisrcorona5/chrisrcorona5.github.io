@@ -4,13 +4,12 @@
 # links. Removing a link prevents it from showing in the header, but does not
 # prevent it from being included in the site.
 #
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# The CV opens directly in the browser's PDF viewer.
 
 # Main navigation links in the header.
 main:
   - title: "CV"
-    url: /cv/
+    url: /files/cv.pdf
 #  - title: "Publications"
 #    url: /publications/
 #  - title: "Talks"
