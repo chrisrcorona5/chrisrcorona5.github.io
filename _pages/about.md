@@ -144,6 +144,28 @@ document.addEventListener('MSFullscreenChange', updateReconFsButton);
   <p style="font-size: 0.92em; line-height: 1.45; margin-bottom: 0; color: #333; text-align: center; max-width: 650px; margin-left: auto; margin-right: auto;">Asymmetric actor-critic reinforcement learning policy trained to distinctly modulate between high-speed running gaits and explosive jumping maneuvers within a unified control network.</p>
 </div>
 
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 15px; margin-bottom: 20px;">
+
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; background: #fafbfc;">
+    <video autoplay loop muted playsinline preload="none" width="960" height="540" poster="/images/split-belt-reflex.png" aria-label="Planar split-belt treadmill walking with tuned reflex control" style="width: 100%; height: auto; border-radius: 6px; display: block; margin-bottom: 12px;">
+      <source src="/images/split-belt-reflex.mp4" type="video/mp4">
+      <img src="/images/split-belt-reflex.gif" alt="Planar human model walking on a split-belt treadmill with reflex control tuned using CMA-ES" loading="lazy" decoding="async" width="720" height="405" style="width: 100%; height: auto; border-radius: 6px; display: block; margin-bottom: 12px;">
+    </video>
+    <h3 style="margin-top: 0; font-size: 1.1em;">Split-Belt Walking &amp; Tuned Reflex Control</h3>
+    <p style="font-size: 0.92em; line-height: 1.45; margin-bottom: 0; color: #333;">Planar walking on a split-belt treadmill, with reflex control tuned through CMA-ES optimization. I plan to build on this work to develop exoskeleton control with reinforcement learning.</p>
+  </div>
+
+  <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; background: #fafbfc;">
+    <video autoplay loop muted playsinline preload="none" width="960" height="540" poster="/images/musclemimic-amass-walking.png" aria-label="MuscleMimic full-body policy following an AMASS walking clip" style="width: 100%; height: auto; border-radius: 6px; display: block; margin-bottom: 12px;">
+      <source src="/images/musclemimic-amass-walking.mp4" type="video/mp4">
+      <img src="/images/musclemimic-amass-walking.gif" alt="MuscleMimic full-body human policy following an AMASS walking reference through imitation learning" loading="lazy" decoding="async" width="720" height="405" style="width: 100%; height: auto; border-radius: 6px; display: block; margin-bottom: 12px;">
+    </video>
+    <h3 style="margin-top: 0; font-size: 1.1em;">MuscleMimic Full-Body Imitation Learning</h3>
+    <p style="font-size: 0.92em; line-height: 1.45; margin-bottom: 0; color: #333;">A local evaluation of <a href="https://github.com/amathislab/musclemimic">MuscleMimic</a>'s imitation learning policy following an AMASS walking clip. This full-body setup is part of my planned work on exoskeleton control with reinforcement learning.</p>
+  </div>
+
+</div>
+
 ---
 
 # Research & Projects
