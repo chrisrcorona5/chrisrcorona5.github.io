@@ -17,7 +17,7 @@ redirect_from:
 
 # Intro
 
-I am a graduate student at the **University of Florida** in the Electrical and Computer Engineering (ECE) department, specializing in **Machine Learning**, **Robotics**, and **Control Systems**. Previously, I was an AI Intern at the **IHMC Robotics Lab** (Florida Institute for Human and Machine Cognition).
+I am a graduate student at the **University of Florida** in the Electrical and Computer Engineering (ECE) department, specializing in **Machine Learning**, **Robotics**, and **Control Systems**, with plans to pursue exoskeleton research at UF. Previously, I was an AI Intern at the **IHMC Robotics Lab** (Florida Institute for Human and Machine Cognition).
 
 My work bridges learnable control architectures with high-fidelity physics simulators such as NVIDIA Isaac Lab and MuJoCo to deploy robust policies onto physical robots, with a primary focus on zero-shot sim-to-real transfer, perceptive locomotion, and dynamic agility.
 
@@ -168,25 +168,10 @@ document.addEventListener('MSFullscreenChange', updateReconFsButton);
 
 ---
 
-# Research & Projects
-
-### 1. Robust Perceptive Locomotion in Extreme Terrains (IHMC Robotics Lab)
-- **Tech**: NVIDIA Isaac Lab, PyTorch, LiDAR/Heightmap encoder-decoder auxiliary loss, LSTM Policy, ROS 2
-- **Focus**: Asymmetric actor-critic architecture training legged robots to traverse unpredictable geometry, stairs, and discrete gaps.
-- **Key Results**: Zero-shot sim-to-real transfer with decoded representations from raycaster LiDAR following ground-truth elevation.
-
-### 2. Multi-Skill Jump and Bound Locomotion (IHMC Robotics Lab)
-- **Tech**: NVIDIA Isaac Lab, PyTorch, Custom Reward Formulations
-- **Focus**: Asymmetric actor-critic architecture training legged robots to distinctly transition between continuous running commands and dynamic jumping commands.
-- **Key Results**: Zero-shot sim-to-real transfer with stable landing recovery and terrain adaptation.
-
----
-
 # Graduate Coursework - Fall 2026
 
 - **Foundations of Digital Signal Processing** (`EEE5502`) 
 - **Fundamentals of Machine Learning** (`EEL5840`) 
-- **Stochastic Methods of Engineering 1** (`EEE5544`) 
 
 ---
 
