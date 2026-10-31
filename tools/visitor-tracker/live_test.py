@@ -18,7 +18,7 @@ database = Path.home() / ".local/state/portfolio-tracker/state.sqlite3"
 def api(path, body=None):
     req = Request(config["endpoint"] + path,
                   data=json.dumps(body).encode() if body is not None else None,
-                  headers={"Authorization": "Bearer " + config["admin_token"], "Content-Type": "application/json"})
+                  headers={"Authorization": "Bearer " + config["admin_token"], "Content-Type": "application/json", "User-Agent": "PortfolioDesktop/1.0"})
     with urlopen(req, timeout=15) as response:
         return json.load(response)
 
