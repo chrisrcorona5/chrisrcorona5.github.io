@@ -153,7 +153,8 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "custom"
+  endpoint               : "https://corona-portfolio-visits.zestyemery.chatgpt.site"
   google:
     tracking_id          :
 
@@ -189,6 +190,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - tools
   - vendor
 keep_files:
   - .git

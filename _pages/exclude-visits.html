@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /exclude-visits/
+sitemap: false
+analytics: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Browser exclusion</title>
+  <script>
+    try { localStorage.setItem("portfolio.exclude", "1"); }
+    catch (_) { /* The automatic network exclusion also covers the home desktop. */ }
+    location.replace({{ '/' | relative_url | jsonify }});
+  </script>
+</head>
+<body><noscript>JavaScript is disabled; browser visits cannot be counted.</noscript></body>
+</html>
